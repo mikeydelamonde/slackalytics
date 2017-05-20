@@ -83,7 +83,7 @@ app.post('/collect', function(req, res){
 		dt:		"Slack Channel: "+channel.name,
 		t: 		"event",
 		ec: 	"slack: "+ channel.name + "|" + channel.id,
-		ea: 	"post by " + user.id,
+		ea: 	"post by " + user.name,
 		el: 	msgText,
 		ev: 	1 
 	};
